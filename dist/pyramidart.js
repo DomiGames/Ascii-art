@@ -14,7 +14,7 @@ function animatePyramid(height, delay) {
         console.log(createPyramid(height, offset)); // Draw the pyramid
         offset += direction;
         // Reverse direction if the pyramid reaches the edge
-        if (offset >= 10 || offset <= 0) {
+        if (offset >= 20 || offset <= 0) {
             direction *= -1;
         }
         // Schedule the next frame

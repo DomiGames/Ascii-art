@@ -17,7 +17,7 @@ function animatePyramid(height: number, delay: number): void {
         offset += direction;
 
         // Reverse direction if the pyramid reaches the edge
-        if (offset >= 10 || offset <= 0) {
+        if (offset >= 20 || offset <= 0) {
             direction *= -1;
         }
 
