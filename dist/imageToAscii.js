@@ -14,7 +14,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const sharp_1 = __importDefault(require("sharp"));
 function imageToAscii(imagePath_1) {
-    return __awaiter(this, arguments, void 0, function* (imagePath, outputWidth = 10) {
+    return __awaiter(this, arguments, void 0, function* (imagePath, outputWidth = 100) {
         try {
             // Load the image and get its metadata
             const image = (0, sharp_1.default)(imagePath);
